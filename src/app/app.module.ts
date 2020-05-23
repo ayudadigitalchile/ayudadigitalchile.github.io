@@ -8,6 +8,7 @@ import { DonacionesComponent } from "./pages/donaciones/donaciones.component";
 import { AboutComponent } from "./pages/about/about.component";
 import { ItemComponent } from "./pages/item/item.component";
 import { AppRoutingModule } from "./app-routing.module";
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AppRoutingModule } from "./app-routing.module";
     DonacionesComponent,
     AboutComponent,
     ItemComponent,
+    SearchComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
