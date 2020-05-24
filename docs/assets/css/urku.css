@@ -2093,7 +2093,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .rk-menu__item {
-    color: #202020;
+    color: rgb(193, 182, 233);
     display: inherit;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -2108,7 +2108,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .rk-menu__item.active {
-    color: #a0a0a0;
+    color: #937EE0;
 }
 
 .rk-menu__link {
