@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1590339913466,
+  "timestamp": 1590359478609,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.61741cf89bad75e02174.js",
-        "/main-es5.61741cf89bad75e02174.js",
+        "/main-es2015.7c76c0ffa8cc7025f8a4.js",
+        "/main-es5.7c76c0ffa8cc7025f8a4.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.3fd94ed6a324eee92aec.js",
         "/polyfills-es5.c219b7059a7feb126472.js",
@@ -112,6 +112,7 @@
         "/assets/css/fonts/aurora-theme-base-fonts/aileron-semibold.woff2",
         "/assets/css/urku.css",
         "/assets/css/urku.min.css",
+        "/assets/data/data-categorias.json",
         "/assets/data/data-pagina.json",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
@@ -169,6 +170,11 @@
         "/assets/js/pe-navscroll.min.js",
         "/assets/js/svg4everybody.min.js",
         "/assets/js/svg4everybody.min.min.js",
+        "/assets/productos/beneficios.jpg",
+        "/assets/productos/compras.jpg",
+        "/assets/productos/donaciones.jpg",
+        "/assets/productos/emergencias.jpg",
+        "/assets/productos/farmacias.jpg",
         "/assets/productos/prod-1/main.jpg",
         "/assets/productos/prod-1/pic-1.jpg",
         "/assets/productos/prod-1/pic-2.jpg",
@@ -228,7 +234,8 @@
         "/assets/productos/project-6.jpg",
         "/assets/productos/project-7.jpg",
         "/assets/productos/project-8.jpg",
-        "/assets/productos/project-9.jpg"
+        "/assets/productos/project-9.jpg",
+        "/assets/productos/tramites.jpg"
       ],
       "patterns": []
     }
@@ -333,6 +340,7 @@
     "/assets/css/fonts/aurora-theme-base-fonts/aileron-semibold.woff2": "c63a4d2ff7474cf93411c059959979de3369301e",
     "/assets/css/urku.css": "d47155518f0aabd2f24d8cacdd3dfff5e85f2b50",
     "/assets/css/urku.min.css": "f92b2ca4da4fe14217ac6046904219c67d92552a",
+    "/assets/data/data-categorias.json": "05aac1cbd834a54d72529d10a172cf680e26c818",
     "/assets/data/data-pagina.json": "359feb9ab54487658e432390acb0694fb146b7f2",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -390,6 +398,11 @@
     "/assets/js/pe-navscroll.min.js": "41406f64ee690e6f5d9044fa8a713164add1bae4",
     "/assets/js/svg4everybody.min.js": "2fd2c8b331f7cba3d6c35fde8cb04b4417a8a703",
     "/assets/js/svg4everybody.min.min.js": "49f393c56ce5eb4ef9eef87e1c1ed2a920892ab6",
+    "/assets/productos/beneficios.jpg": "95452ed9d345a49860e1cd67ce84cb21cc63473f",
+    "/assets/productos/compras.jpg": "dc996e04dea0e4217f86f67cfda2c5d64907363f",
+    "/assets/productos/donaciones.jpg": "6d5226278eb47e14eae007d075abcc71d72581f8",
+    "/assets/productos/emergencias.jpg": "822eaef6888f445d44489b1f4a913491675a8eb3",
+    "/assets/productos/farmacias.jpg": "980c9cb574929311e6105bfd0301e0fe3c0a4b74",
     "/assets/productos/prod-1/main.jpg": "1caeb5bcee60d69b1671f744fda1f7160b5eddef",
     "/assets/productos/prod-1/pic-1.jpg": "81f85fc449e81d9671aaa152fd9135c44dceb136",
     "/assets/productos/prod-1/pic-2.jpg": "a8e088d970ccd24ea5f435b4e4989a06599755a2",
@@ -450,10 +463,11 @@
     "/assets/productos/project-7.jpg": "459e28eb30f4ca1e1fa6cf37053aca0ef8b7efbb",
     "/assets/productos/project-8.jpg": "9f52a435fd2524ad6865aff134301a02be5a9213",
     "/assets/productos/project-9.jpg": "f1f79d75648e042bde9a27a456eccd6b47b10523",
+    "/assets/productos/tramites.jpg": "ddb0350e7b9a871ffe4010fe1b46f429c4499ef0",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "787012e9fc8e5e0062299ab608da343146399418",
-    "/main-es2015.61741cf89bad75e02174.js": "738dce386d2056abd83277c83572c6deaa32ddac",
-    "/main-es5.61741cf89bad75e02174.js": "4f304e94a8dfd12af85782148a08bb783fe8fab6",
+    "/index.html": "f971a5308bb9efb938f99d73468956d6eba334d6",
+    "/main-es2015.7c76c0ffa8cc7025f8a4.js": "a1525ea13c2d82aecd025d75d9ba7abd17fae24b",
+    "/main-es5.7c76c0ffa8cc7025f8a4.js": "331a78d6d4d33e20660325ba4b67591573ca0530",
     "/manifest.webmanifest": "54de111aeff86b067d65c7e9c8db72507df37eaf",
     "/polyfills-es2015.3fd94ed6a324eee92aec.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/polyfills-es5.c219b7059a7feb126472.js": "87006d1f609b94ee122cc7790b1ddb5e03d8eaa6",

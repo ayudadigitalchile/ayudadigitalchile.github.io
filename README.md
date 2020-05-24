@@ -1,5 +1,6 @@
 # AYUDA DIGITAL CHILE, cuidate queda en casa
 
+VER 3
 Este proyecto es de libre colaboración, con la intención de otorgar información indexada de rapido acceso a todas las personas que sin salir de sus hogares, necesitan realizar algún tramite, comprar, obtener un benerficio, Farmacias Online Etc. Para esto necesitamos ayuda de Desarrollares de Software, UX/UI, Sponsor, que quieran unirse con el objetivo de que la gente salga lo menos posible.
 Este proyecto es Open Source y sientanse libres de colaborar, crear sus propias versiones mejoradas, mientras se mantenga la premisa original de realizarlo de manera VOLUNTARIA y no crear un LUCRO de esto.
 
@@ -7,7 +8,6 @@ Este proyecto es Open Source y sientanse libres de colaborar, crear sus propias 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 Development rama de desarrollo
-
 
 ## Development server
 
