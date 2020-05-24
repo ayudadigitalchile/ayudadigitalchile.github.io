@@ -1,0 +1,41 @@
+{
+    "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+    "index": "/index.html",
+    "assetGroups": [{
+            "name": "ayudadigital",
+            "installMode": "prefetch",
+            "resources": {
+                "files": [
+                    "/favicon.ico",
+                    "/index.html",
+                    "/manifest.webmanifest",
+                    "/*.css",
+                    "/*.js",
+                    "/manifest.json"
+                ],
+                "urls": []
+            }
+        },
+        {
+            "name": "assets",
+            "installMode": "lazy",
+            "updateMode": "prefetch",
+            "resources": {
+                "files": [
+                    "/assets/**",
+                    "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+                ]
+            }
+        }
+    ],
+    "dataGroups": [{
+        "name": "ayudadigital-api",
+        "urls": ["https://ayudadigitalchile-ac9fe.firebaseio.com/**"],
+        "cacheConfig": {
+            "maxSize": 20,
+            "maxAge": "1h",
+            "timeout": "7s",
+            "strategy": "freshness"
+        }
+    }]
+}

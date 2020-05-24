@@ -35,6 +35,7 @@
             Espere por favor
         </p>
     </div>
+    <br><br>
     <div *ngIf="!productosService.cargando" class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
 
         <a *ngFor="let producto of productosService.productos" target="_blank" href="{{producto.url2}}" class="animated fadeIn rk-item ae-masonry__item">
