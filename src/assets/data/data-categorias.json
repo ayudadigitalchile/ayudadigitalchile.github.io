@@ -1,0 +1,43 @@
+[{
+        "categoria": "donaciones",
+        "cod": "cod-1",
+        "titulo": "Donaciones",
+        "descripcion": "Todas las iniciativas que ayudan sin fines de lucro",
+        "url": "donaciones"
+    },
+    {
+        "categoria": "compra",
+        "cod": "cod-2",
+        "titulo": "Compra desde casa",
+        "descripcion": "Todas las compras que se pueden realizar sin salir de casa",
+        "url": "compras"
+    },
+    {
+        "categoria": "Beneficios",
+        "cod": "cod-3",
+        "titulo": "Beneficios",
+        "descripcion": "Todas los beneficios que se pueden obtener en momentos de crisis",
+        "url": "beneficios"
+    },
+    {
+        "categoria": "Emergencias",
+        "cod": "cod-4",
+        "titulo": "Emergencias",
+        "descripcion": "Todos los contactos de emergencias y telefonos asociados",
+        "url": "emergencias"
+    },
+    {
+        "categoria": "Farmacias",
+        "cod": "cod-5",
+        "titulo": "Farmacias online",
+        "descripcion": "Todas las farmacias que tienen despacho a domicilio",
+        "url": "farmacias"
+    },
+    {
+        "categoria": "Tramites",
+        "cod": "cod-6",
+        "titulo": "Tramites",
+        "descripcion": "Todas los tramites que se pueden realizar sin salir de casa",
+        "url": "tramites"
+    }
+]
