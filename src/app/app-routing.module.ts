@@ -8,7 +8,6 @@ import { SearchComponent } from "./pages/search/search.component";
 const app_routes: Routes = [
   { path: "home", component: DonacionesComponent },
   { path: "about", component: AboutComponent },
-  { path: "item/:id", component: ItemComponent },
   { path: "search/:termino", component: SearchComponent },
   { path: "**", pathMatch: "full", redirectTo: "home" },
 ];
