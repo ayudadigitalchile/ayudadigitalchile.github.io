@@ -1,4 +1,17 @@
 <header class="ae-container-fluid ae-container-fluid--full rk-header ">
+    <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
+    <label for="mobile-menu">
+        <svg>
+            <use xlink:href="assets/img/symbols.svg#bar"></use>
+        </svg>
+        <svg>
+            <use xlink:href="assets/img/symbols.svg#bar"></use>
+        </svg>
+        <svg>
+            <use xlink:href="assets/img/symbols.svg#bar"></use>
+        </svg>
+    </label>
+    <br>
     <div class="ae-container-fluid rk-topbar">
         <h1 class="rk-logo"><a routerLink="home">{{Servicio.info.titulo}}
                 <sup>cuidate <div class="corazon">&#x2665;</div></sup></a></h1>
@@ -19,7 +32,8 @@
                 </li>
                 <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/tramites" class="rk-menu__link">Tramites</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="about" class="rk-menu__link">Contacto</a>
+                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="about" class="rk-menu__link">Sobre el
+                        proyecto</a>
                 </li>
             </ul>
             <div class="rk-search">
