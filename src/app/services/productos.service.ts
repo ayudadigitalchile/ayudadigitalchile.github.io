@@ -19,7 +19,7 @@ export class ProductosService {
           "https://ayudadigitalchile-ac9fe.firebaseio.com/productos_idx.json"
         )
         .subscribe((resp: Producto[]) => {
-          console.log(resp);
+          // console.log(resp);
           this.productos = resp;
           this.cargando = false;
           resolve();
