@@ -46,3 +46,7 @@ svg rect {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
 }
+
+body {
+    background-color: #F5F5F5
+}
