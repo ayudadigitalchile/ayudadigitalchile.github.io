@@ -105,12 +105,14 @@ body {
     text-align: center;
     text-transform: uppercase;
     width: 20%;
+    color: #937EE0;
 }
 
 .rk-logo sup {
     font-size: .5625rem;
     position: relative;
     top: -1px;
+    color: #937EE0;
 }
 
 @media (min-width: 64em) {
@@ -120,6 +122,7 @@ body {
         -ms-flex: 1;
         flex: 1;
         text-align: left;
+        color: #937EE0;
     }
 }
 

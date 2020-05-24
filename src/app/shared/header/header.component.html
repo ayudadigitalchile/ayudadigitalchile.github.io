@@ -1,26 +1,24 @@
 <header class="ae-container-fluid ae-container-fluid--full rk-header ">
     <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a routerLink="home">{{Servicio.info.titulo}}<sup>cuidate</sup></a></h1>
+        <h1 class="rk-logo"><a routerLink="home">{{Servicio.info.titulo}}
+                <sup>cuidate <div class="corazon">&#x2665;</div></sup></a></h1>
+
         <nav class="rk-navigation">
             <ul class="rk-menu">
                 <li routerLinkActive="active" class="rk-menu__item"><a routerLink="home" class="rk-menu__link">Home</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Donaciones</a>
+                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/donaciones" class="rk-menu__link">Donaciones</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item"><a href="#0" class="rk-menu__link">Compra desde
-                        casa</a>
-                    <nav class="rk-menu__sub">
-                        <ul class="rk-container">
-                            <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
-                            <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
-                            <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design
-                                    Styles</a></li>
-                        </ul>
-                    </nav>
+                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/compras" class="rk-menu__link">Compra desde Casa</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item"><a href="blog.html" class="rk-menu__link">blog</a>
+                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/beneficios" class="rk-menu__link">Beneficios</a>
                 </li>
-
+                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/emergencia" class="rk-menu__link">Emergencias</a>
+                </li>
+                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/farmacias" class="rk-menu__link">Farmacias Online</a>
+                </li>
+                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/tramites" class="rk-menu__link">Tramites</a>
+                </li>
                 <li routerLinkActive="active" class="rk-menu__item"><a routerLink="about" class="rk-menu__link">Contacto</a>
                 </li>
             </ul>
