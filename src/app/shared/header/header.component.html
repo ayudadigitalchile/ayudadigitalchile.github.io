@@ -1,6 +1,6 @@
 <header class="ae-container-fluid ae-container-fluid--full rk-header ">
     <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-    <label for="mobile-menu">
+    <label (click)=toggleDisplayOn() for="mobile-menu">
         <svg>
             <use xlink:href="assets/img/symbols.svg#bar"></use>
         </svg>
@@ -16,25 +16,25 @@
         <h1 class="rk-logo"><a routerLink="home">{{Servicio.info.titulo}}
                 <sup>cuidate <div class="corazon">&#x2665;</div></sup></a></h1>
 
-        <nav class="rk-navigation">
+        <nav *ngIf="isShow" class="rk-navigation">
             <ul class="rk-menu">
-                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="home" class="rk-menu__link">Home</a>
+                <li routerLinkActive="active" class="rk-menu__item"><a (click)=toggleDisplay() routerLink="home" class="rk-menu__link">Home</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/donaciones" class="rk-menu__link">Donaciones</a>
+                <li routerLinkActive="active" class="rk-menu__item"><a (click)=toggleDisplay() routerLink="search/donaciones" class="rk-menu__link">Donaciones</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/compras" class="rk-menu__link">Compra desde Casa</a>
+                <li routerLinkActive="active" class="rk-menu__item"><a (click)=toggleDisplay() routerLink="search/compras" class="rk-menu__link">Compra desde Casa</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/beneficios" class="rk-menu__link">Beneficios</a>
+                <li routerLinkActive="active" class="rk-menu__item"><a (click)=toggleDisplay() routerLink="search/beneficios" class="rk-menu__link">Beneficios</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/emergencia" class="rk-menu__link">Emergencias</a>
+                <li routerLinkActive="active" class="rk-menu__item"><a (click)=toggleDisplay() routerLink="search/emergencia" class="rk-menu__link">Emergencias</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/farmacias" class="rk-menu__link">Farmacias Online</a>
+                <li routerLinkActive="active" class="rk-menu__item"><a (click)=toggleDisplay() routerLink="search/farmacias" class="rk-menu__link">Farmacias Online</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/tramites" class="rk-menu__link">Tramites</a>
+                <li routerLinkActive="active" class="rk-menu__item"><a (click)=toggleDisplay() routerLink="search/tramites" class="rk-menu__link">Tramites</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="search/empleos" class="rk-menu__link">Empleos</a>
+                <li routerLinkActive="active" class="rk-menu__item"><a (click)=toggleDisplay() routerLink="search/empleos" class="rk-menu__link">Empleos</a>
                 </li>
-                <li routerLinkActive="active" class="rk-menu__item"><a routerLink="about" class="rk-menu__link">Sobre el
+                <li routerLinkActive="active" class="rk-menu__item"><a (click)=toggleDisplay() routerLink="about" class="rk-menu__link">Sobre el
                         proyecto</a>
                 </li>
             </ul>

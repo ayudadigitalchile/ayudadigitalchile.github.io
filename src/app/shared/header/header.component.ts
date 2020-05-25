@@ -8,6 +8,7 @@ import { Router } from "@angular/router";
   styleUrls: ["./header.component.css"],
 })
 export class HeaderComponent implements OnInit {
+  isShow = true;
   constructor(public Servicio: InfopaginaService, private router: Router) {}
 
   ngOnInit(): void {}
@@ -18,5 +19,12 @@ export class HeaderComponent implements OnInit {
     }
     this.router.navigate(["/search", termino]);
     console.log(termino);
+    this.toggleDisplay();
+  }
+  toggleDisplay() {
+    this.isShow = false;
+  }
+  toggleDisplayOn() {
+    this.isShow = true;
   }
 }
