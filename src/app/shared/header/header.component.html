@@ -1,6 +1,6 @@
 <header class="ae-container-fluid ae-container-fluid--full rk-header ">
-    <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-    <label (click)=toggleDisplayOn() for="mobile-menu">
+    <input type="checkbox" id="mobile-menu" [(ngModel)]=isShow class="rk-mobile-menu">
+    <label for="mobile-menu">
         <svg>
             <use xlink:href="assets/img/symbols.svg#bar"></use>
         </svg>
@@ -16,7 +16,7 @@
         <h1 class="rk-logo"><a routerLink="home">{{Servicio.info.titulo}}
                 <sup>cuidate <div class="corazon">&#x2665;</div></sup></a></h1>
 
-        <nav *ngIf="isShow" class="rk-navigation">
+        <nav class="rk-navigation">
             <ul class="rk-menu">
                 <li routerLinkActive="active" class="rk-menu__item"><a (click)=toggleDisplay() routerLink="home" class="rk-menu__link">Home</a>
                 </li>

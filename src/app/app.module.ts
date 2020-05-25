@@ -8,10 +8,11 @@ import { DonacionesComponent } from "./pages/donaciones/donaciones.component";
 import { AboutComponent } from "./pages/about/about.component";
 import { ItemComponent } from "./pages/item/item.component";
 import { AppRoutingModule } from "./app-routing.module";
-import { SearchComponent } from './pages/search/search.component';
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { environment } from '../environments/environment';
-import { HomeComponent } from './pages/home/home.component';
+import { SearchComponent } from "./pages/search/search.component";
+import { ServiceWorkerModule } from "@angular/service-worker";
+import { environment } from "../environments/environment";
+import { HomeComponent } from "./pages/home/home.component";
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,15 @@ import { HomeComponent } from './pages/home/home.component';
     SearchComponent,
     HomeComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    AppRoutingModule,
+    HttpClientModule,
+    ServiceWorkerModule.register("ngsw-worker.js", {
+      enabled: environment.production,
+    }),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -24,7 +24,4 @@ export class HeaderComponent implements OnInit {
   toggleDisplay() {
     this.isShow = false;
   }
-  toggleDisplayOn() {
-    this.isShow = true;
-  }
 }

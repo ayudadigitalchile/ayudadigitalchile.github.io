@@ -562,7 +562,7 @@ body {
 }
 
 .rk-item--flex:hover {
-    background-color: #000;
+    background-color: #6c39d7;
     background-blend-mode: luminosity;
 }
 
@@ -587,7 +587,7 @@ body {
 }
 
 .post-img:hover {
-    background-color: #000;
+    background-color: #6c39d7;
     background-blend-mode: luminosity;
 }
 
@@ -603,7 +603,7 @@ body {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.75);
     bottom: 0;
-    color: #202020;
+    color: #6c39d7;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -613,7 +613,7 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    font-size: 0.67rem;
+    font-size: 0.8rem;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -631,7 +631,7 @@ body {
 }
 
 .item-meta h2 {
-    font-size: 2.25em;
+    font-size: 3.25em;
     font-weight: 700;
 }
 
